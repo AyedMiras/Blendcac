@@ -1,0 +1,17 @@
+admin.addPeer('enode://ccdb7a6f3db431b40d9599fff9b12b359f7d56460b9926eb4e9e76501979bef6c34416d46fc7202b62595d1ef04774197456f57934f527ac6fc4c591da0ed40d@127.0.0.1:30306?discport=0')
+admin.addPeer('enode://9e11a2b4a7fc8c9b404815cbca674853013058e2d5cc06bae7a3845ba0a77a4a887375b3737bbedfbd04ae3e58a8d0402880067cf612986b338fd43d361d3722@127.0.0.1:30304?discport=0')
+admin.peers
+miner.start()
+miner.gethashRate()
+miner.gethasheate()
+miner.gethashrate()
+miner.
+miner
+miner.getHashrate()
+eth.coinbase
+eth.getBalance(eth.coinbase)
+eth.coinbase
+miner.stop()
+eth.coinbase
+admin.peers
+eth.coinbase

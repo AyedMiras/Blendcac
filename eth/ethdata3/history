@@ -1,0 +1,13 @@
+admin.nodeInfo.enode
+admin.peers
+miner.start()
+eth.getBalance(eth.coinbase)
+eth.coinbase
+eth.getBalance(eth.coinbase)
+eth.coinbase
+eth.getBalance(eth.coinbase)
+eth.coinbase
+eth.getBalance(eth.coinbase)
+miner.getHashrate()
+eth.coinbase
+admin.peers

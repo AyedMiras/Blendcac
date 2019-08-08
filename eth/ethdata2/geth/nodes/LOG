@@ -1,0 +1,18 @@
+=============== Aug 2, 2019 (IST) ===============
+12:09:37.333382 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:09:37.382186 db@open opening
+12:09:37.384507 version@stat F·[] S·0B[] Sc·[]
+12:09:37.415999 db@janitor F·2 G·0
+12:09:37.416049 db@open done T·33.820672ms
+14:38:15.220506 db@close closing
+14:38:15.234114 db@close done T·13.601381ms
+=============== Aug 2, 2019 (IST) ===============
+14:38:27.309991 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:38:27.310470 version@stat F·[] S·0B[] Sc·[]
+14:38:27.310510 db@open opening
+14:38:27.310583 journal@recovery F·1
+14:38:27.312205 journal@recovery recovering @1
+14:38:27.351996 memdb@flush created L0@2 N·2 S·180B "n:\xfa..seq,v2":"version,v1"
+14:38:27.354596 version@stat F·[1] S·180B[180B] Sc·[0.25]
+14:38:27.442531 db@janitor F·3 G·0
+14:38:27.442773 db@open done T·132.243138ms

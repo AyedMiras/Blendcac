@@ -1,0 +1,9 @@
+admin.addPeer('enode://ccdb7a6f3db431b40d9599fff9b12b359f7d56460b9926eb4e9e76501979bef6c34416d46fc7202b62595d1ef04774197456f57934f527ac6fc4c591da0ed40d@127.0.0.1:30306?discport=0')
+admin.nodeInfo.enode
+admin.peers
+miner.start()
+eth.coinbase
+miner.start()
+miner.getHashrate()
+admin.peers
+eth.coinbase

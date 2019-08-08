@@ -1,0 +1,34 @@
+=============== Aug 2, 2019 (IST) ===============
+12:08:53.712738 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:08:53.789520 db@open opening
+12:08:53.791006 version@stat F·[] S·0B[] Sc·[]
+12:08:53.845624 db@janitor F·2 G·0
+12:08:53.845726 db@open done T·56.105334ms
+=============== Aug 2, 2019 (IST) ===============
+12:09:41.601473 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:09:41.601630 version@stat F·[] S·0B[] Sc·[]
+12:09:41.601643 db@open opening
+12:09:41.601699 journal@recovery F·1
+12:09:41.603766 journal@recovery recovering @1
+12:09:41.661204 memdb@flush created L0@2 N·9 S·561B "HM\xbc..~~\xc5,v3":"r\x00\x00..~~\xc5,v5"
+12:09:41.666650 version@stat F·[1] S·561B[561B] Sc·[0.25]
+12:09:41.762694 db@janitor F·3 G·0
+12:09:41.762785 db@open done T·161.100819ms
+14:38:13.931322 db@close closing
+14:38:13.963380 db@close done T·36.056146ms
+=============== Aug 2, 2019 (IST) ===============
+14:38:34.086083 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:38:34.113241 version@stat F·[1] S·561B[561B] Sc·[0.25]
+14:38:34.113344 db@open opening
+14:38:34.113643 journal@recovery F·1
+14:38:34.117135 journal@recovery recovering @3
+14:38:34.310833 memdb@flush created L0@5 N·32171 S·1MiB "\x01e\xf5..\xcd\xe3\x86,v32178":"\xfbo\xf6..T\xe4\x80,v32116"
+14:38:34.317248 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+14:38:34.404116 db@janitor F·4 G·0
+14:38:34.404236 db@open done T·290.827057ms
+14:42:16.429024 table@compaction L0·2 -> L1·0 S·1MiB Q·32544
+14:42:16.758370 table@build created L1@8 N·21232 S·1MiB "\x01e\xf5..\xcd\xe3\x86,v32178":"\xfbo\xf6..T\xe4\x80,v32116"
+14:42:16.758479 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+14:42:16.784779 table@compaction committed F-1 S-459KiB Ke·0 D·10948 T·355.699012ms
+14:42:16.817392 table@remove removed @5
+14:42:16.818778 table@remove removed @2

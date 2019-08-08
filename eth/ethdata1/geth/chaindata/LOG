@@ -1,0 +1,34 @@
+=============== Aug 2, 2019 (IST) ===============
+12:08:50.214248 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:08:50.340260 db@open opening
+12:08:50.365248 version@stat F·[] S·0B[] Sc·[]
+12:08:50.418735 db@janitor F·2 G·0
+12:08:50.418873 db@open done T·78.512583ms
+=============== Aug 2, 2019 (IST) ===============
+12:09:28.472237 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:09:28.473772 version@stat F·[] S·0B[] Sc·[]
+12:09:28.473791 db@open opening
+12:09:28.473859 journal@recovery F·1
+12:09:28.599640 journal@recovery recovering @1
+12:09:28.696361 memdb@flush created L0@2 N·9 S·561B "HM\xbc..~~\xc5,v3":"r\x00\x00..~~\xc5,v5"
+12:09:28.702020 version@stat F·[1] S·561B[561B] Sc·[0.25]
+12:09:28.864635 db@janitor F·3 G·0
+12:09:28.864706 db@open done T·390.893893ms
+14:38:16.775479 db@close closing
+14:38:16.814052 db@close done T·38.572288ms
+=============== Aug 2, 2019 (IST) ===============
+14:38:22.587162 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:38:22.600908 version@stat F·[1] S·561B[561B] Sc·[0.25]
+14:38:22.600953 db@open opening
+14:38:22.601073 journal@recovery F·1
+14:38:22.604339 journal@recovery recovering @3
+14:38:22.767288 memdb@flush created L0@5 N·32336 S·1MiB "\x01\x9dj..\xf4NO,v32302":"\xfbo\xf6..T\xe4\x80,v32281"
+14:38:22.774333 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+14:38:22.864994 db@janitor F·4 G·0
+14:38:22.865089 db@open done T·264.095328ms
+14:39:17.036364 table@compaction L0·2 -> L1·0 S·1MiB Q·32349
+14:39:17.181305 table@build created L1@8 N·21235 S·1MiB "\x01\x9dj..\xf4NO,v32302":"\xfbo\xf6..T\xe4\x80,v32281"
+14:39:17.181414 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+14:39:17.245030 table@compaction committed F-1 S-463KiB Ke·0 D·11110 T·208.43766ms
+14:39:17.245658 table@remove removed @5
+14:39:17.245755 table@remove removed @2
